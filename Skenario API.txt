@@ -1,0 +1,11 @@
+SKENARIO API
+1. Cek API pada setiap fungsi di dalam modul apakah endpoint nya sudah sesuai
+2. Cek API menggunakan postman / sejenisnya untuk mengecek apakah request/response sudah sesuai yang dibutuhkan
+
+Hasil inspect pada link https://taskdev.mile.app/login
+pada komponen Organization Name / org_login :
+Request URL / endpoint : https://apidev.mile.app/v1/org_login
+
+
+pada komponen Button Login / login :
+Request URL / endpoint : https://apidev.mile.app/v1/login
