@@ -1,0 +1,23 @@
+1. Sebutkan 3 kesalahan besar yang paling sering dilakukan oleh QA, dan berikan solusinya agar
+tidak terjadi atau terulang kembali.
+
+2. Jelaskan poin-poin terpenting yang harus diperhatikan dalam menganalisa dan membuat
+skenario test.
+
+Jawaban
+1. 3 kesalahan yang sering dilakukan QA : 
+- Kesalahan : Tidak mendalami proses bisnis akibatnya saat modul sudah OK, tapi masih ada ketidaksesuaian dengan modul lain yang berhubungan
+Solusi : Berdiskusi dengan PM/SA, buat flow menggunakan diagram / test script untuk setiap proses bisnis yang ada
+- Kesalahan : Mengabaikan standarisasi akibatnya banyak perbedaan standarisasi di setiap modul
+Solusi : QA harus memiliki standarisasi untuk setiap aspek dari UI,notifikas,label,jenis huruf dll
+- Kesalahan : Hanya berpegang pada pedoman / FSD akibatnya jika SA/PM membuat kesalahan pada pedoman yang dibuat maka QA juga akan membuat kesalahan
+SOlusi : seharusnya QA lebih berfikir kritis akan setiap detail yang ada, jika memang tidak sesuai maka diskusikan dengan PM/SA
+
+
+2. Point-point penting dalam membuat skenario test :
+- membuat scope untuk skenario testing permodul dan scope untuk skenario testing antar modul
+- urutan skenario test agar tidak melakukan test berulang
+- memperhatikan setiap fungsi
+- membuat standarsasi
+- memperhatikan setiap detail UI
+- memperhatikan test case untuk multi user (ubah data yang sama dengan 2 orang bersamaan dsb)
